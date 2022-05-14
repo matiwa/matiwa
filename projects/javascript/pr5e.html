@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#kontener{
+width: 500px;
+height: 500px;
+position: relative;
+background: gray;
+}
+#kursor{
+width: 50px;
+height: 50px;
+position: absolute;
+background-color: black;
+top: 225px;
+}
+</style>
+<title>js5e</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+function animacja(){
+var kursor=document.getElementById("kursor");
+var polozenie=0;
+var id=setInterval(zmiana,5);
+function zmiana(){
+if(polozenie==450){
+clearInterval(id);
+}else{
+polozenie++;
+kursor.style.left=polozenie+'px';
+}
+}
+}
+</script>
+</head>
+<body>
+<div id="kontener">
+<div id="kursor"></div></div>
+<button onclick="animacja()">Nacisnij</button>
+</body>
+</html>

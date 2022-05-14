@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js5b</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+function start(){
+var div = document.getElementById("div1");
+var iterator = document.createNodeIterator(div,NodeFilter.SHOW_ELEMENT,null,false);
+var node = iterator.nextNode();
+while(node!==null){
+alert(node.tagName);
+node=iterator.nextNode();
+}
+}
+</script>
+</head>
+<body>
+<div id="div1">
+<p>Lista : </p>
+<ul>
+<li>Element 1</li>
+<li>Element 2</li>
+<li>Element 3</li>
+</ul>
+</div>
+<button onclick="start()">Start</button>
+</body>
+</html>

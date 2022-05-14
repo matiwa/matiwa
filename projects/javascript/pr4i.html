@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js4i</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<script type="text/javascript">
+function Pracownik(imie,wiek,stanowisko){
+this.imie=imie;
+this.wiek=wiek;
+this.stanowisko=stanowisko;
+this.wypiszDane=function(){
+document.write(this.imie+" "+this.wiek+" "+this.stanowisko+"<br>");
+};
+}
+var pracownik1=new Pracownik("Peter",22,"Engineer");
+var pracownik2=new Pracownik("John",26,"Driver");
+pracownik1.wypiszDane();
+pracownik2.wypiszDane();
+</script>
+</body>
+</html>

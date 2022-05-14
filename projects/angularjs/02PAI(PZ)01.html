@@ -1,0 +1,36 @@
+﻿<html>
+<head><title>Przykładowa usługa</title></head>
+<meta charset="utf-8"/>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+<div ng-app="myApp1">
+<div ng-controller="ListCtrl as lista">
+<p ng-repeat="komunikat in lista.komunikaty">
+{{komunikat.id}}: {{komunikat.text}}</p></div>
+<div ng-controller="PostCtrl as kom">
+<form ng-submit=kom.addKomunikat(kom.newKomunikat)">
+<input type="text" ng-model="kom.newKomunikat">
+<button type="submit">Dodaj</button>
+</form>
+</div>
+</body>
+var app=angular.module("myApp1"[]);
+app.factory('komunikaty',function(){
+var komunikaty={};
+komunikaty.list=[];
+komunikaty.add=function(komunikat){
+komunikaty.list.push(
+{id:komunikaty.list.length,text:komunikat});
+};
+return komunikaty;
+});
+app.controller('ListCtrl',function(komunikaty){
+this.komunikaty=komunikaty.list;
+});
+app.controller('PostCtrl',function(komunikaty){
+this.newKomunikat='Wpisz coś!';
+this.addKomunikat=function(komunikat){
+komunikaty.add(komunikat);
+};
+});
+</html>

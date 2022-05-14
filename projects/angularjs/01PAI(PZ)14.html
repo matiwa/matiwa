@@ -1,0 +1,31 @@
+﻿<html>
+<head><title>Filtry w AngularJS - sortowanie w tabeli</title></head>
+<meta charset="utf-8"/>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+<table>
+<tr>
+<th ng-click="ustawSortowanie('marka')">Marka</th>
+<th ng-click="ustawSortowanie('model')">Model</th>
+</tr>
+<tr ng-repeat="x in samochody | orderBy:sort">
+<td>{{x.marka}}</td>
+<td>{{x.model}}</td>
+</tr>
+</table>
+</div>
+<script>
+var app=angular.module('myApp',[]);
+app.controller('myCtrl',function($scope){
+$scope.samochody=[
+{marka:'Mercedes',model:'Sprinter'},
+{marka:'Renault',model:'Clio'},
+{marka:'Seat',model:'Ibiza'}];
+$scope.ustawSortowanie=function(x){
+$scope.sort=x;
+}
+});
+</script>
+</body>
+</html>

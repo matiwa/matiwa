@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js4n</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<p id="p1"></p>
+<input type="button" id="btn1" value="Click">
+<script>
+var przycisk=document.getElementById("btn1");
+var funkcjaObslugiZdarzenia=function(event){
+switch(event.type){
+case "click":
+document.getElementById("p1").innerHTML="click";
+break;
+case "mouseover":
+document.getElementById("p1").innerHTML="mouseover";
+break;
+case "mouseout":
+document.getElementById("p1").innerHTML="mouseout";
+break;
+}
+};
+przycisk.onclick=funkcjaObslugiZdarzenia;
+przycisk.onmouseover=funkcjaObslugiZdarzenia;
+przycisk.onmouseout=funkcjaObslugiZdarzenia;
+</script>
+</body>
+</html>

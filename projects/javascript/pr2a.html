@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function sprawdzeniePoprawnosci()
+{
+var x=document.forms["form1"]["nazwisko"].value;
+if(x==null || x=="")
+{
+alert("wypelnij pole nazwiska");
+return false;
+}
+}
+</script>
+<title>js2a</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<form action="pr1.php" name="form1" onsubmit="return sprawdzeniePoprawnosci()" method="post">
+Nazwisko: <input type="text" name="nazwisko">
+<input type="submit" value="Przeslij">
+</form>
+</body>
+</html>

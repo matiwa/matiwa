@@ -1,0 +1,21 @@
+﻿<html>
+<head><title>Kontroler w AngularJS</title></head>
+<meta charset="utf-8"/>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+Marka samochodu: <input type="text" ng-model="marka">
+<br>
+Model samochodu: <input type="text" ng-model="model">
+<br><br>
+Samochód : {{marka +" "+model}}
+</div>
+<script>
+var app=angular.module('myApp',[]);
+app.controller('myCtrl',function($scope){
+$scope.marka="Audi";
+$scope.model="A4";
+});
+</script>
+</body>
+</html>

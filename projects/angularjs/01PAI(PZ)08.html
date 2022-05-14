@@ -1,0 +1,17 @@
+﻿<html>
+<head><title>Iteracja elementów tablicy w AngularJS (obiekty)</title></head>
+<meta charset="utf-8"/>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+<div ng-app="" ng-init="samochody = [
+{marka:'Audi',model:'A4'},
+{marka:'Audi',model:'A6'},
+{marka:'Audi',model:'A8'}]">
+<ul>
+<li ng-repeat="x in samochody">
+{{x.marka+", "+x.model}}
+</li>
+</ul>
+</div>
+</body>
+</html>

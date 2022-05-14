@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function wczytajMape(){
+var mapOptions={
+center:new google.maps.LatLng(50.8, 19.12),
+zoom:10,
+mapTypeId:google.maps.MapTypeId.ROADMAP
+};
+var map=new google.maps.Map(document.getElementById("obszarMapy"),mapOptions);
+}
+</script>
+<title>js3d</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+<button type="button" onclick="wczytajMape()">wczytaj mape</button>
+<div id="obszarMapy" style="width:500px; height:500px;"></div>
+</body>
+</html>

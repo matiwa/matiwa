@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+var c=0;
+var t;
+var timer_is_on=0;
+function timedCount(){
+document.getElementById('pole').value=c;
+c=c+1;
+t=setTimeout("timedCount()",1000);
+}
+function startTimer() {
+if(!timer_is_on) {
+timer_is_on=1;
+timedCount();
+}
+}
+function stopTimer() {
+clearTimeout(t);
+timer_is_on=0;
+}
+function czysc() {
+c=0;
+document.getElementById('pole').value=c;
+}
+</script>
+<title>js2g</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<input type="button" value="Start!" onclick="startTimer()"/>
+<input type="text" id="pole"/>
+<input type="button" value="Stop!" onclick="stopTimer()"/>
+<input type="button" value="Resetuj!" onclick="czysc()"/>
+</body>
+</html>

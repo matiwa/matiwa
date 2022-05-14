@@ -1,0 +1,20 @@
+﻿<html>
+<head><title>Usługa http</title></head>
+<meta charset="utf-8"/>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+<p>Wczytany tekst:</p>
+<h1>{{tekst}}</h1>
+</div>
+<script>
+var app=angular.module('myApp',[]);
+app.controller('myCtrl',function($scope,$http)
+{
+$http.get("test1.txt").then(function(response){
+$scope.tekst=response.data;
+});
+});
+</script>
+</body>
+</html>

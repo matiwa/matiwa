@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function sprawdz() {
+if(document.Dane.imie.value==""){
+alert("Wprowadz imie!");
+document.Dane.imie.focus();
+return false;
+}
+if(document.Dane.wiek.value=="") {
+alert("Wprowadz wiek!");
+document.Dane.imie.focus();
+return false;
+}
+return (true);
+}
+</script>
+<title>js3a</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<script type="text/javascript">
+document.write("<b>"+"Uzupelnij dane :"+"</b><br>");
+</script>
+<form action="witaj.php" name="Dane" onsubmit="return(sprawdz());">
+Imie: <input type="text" name="imie"/>
+Wiek: <input type="text" name="wiek"/>
+<input type="submit"/>
+</form>
+</body>
+</html>

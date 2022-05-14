@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/javascript">
+
+function CzytajCookie() {
+var wszystkiecookies=document.cookie;
+document.write("Wszystkie cookies : "+wszystkiecookies+"<br>");
+cookiearray=wszystkiecookies.split(';');
+for(var i=0;i<cookiearray.length;i++){
+name=cookiearray[i].split('=')[0];
+value=cookiearray[i].split('=')[1];
+document.write("Klucz to : "+name+" i wartosc to : "+value+"<br>");
+}
+}
+</script>
+<title>js3c</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+<form name="myform" action="">
+<p>Wcisnij klawisz</p>
+<input type="button" value="Czytaj Cookie" onclick="CzytajCookie();"/>
+</form>
+</body>
+</html>

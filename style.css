@@ -1,0 +1,268 @@
+* { 
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Georgia, Arial;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: beige;
+}
+
+.article h1{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid forestgreen;
+}
+
+.article h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.article p{
+    text-align: left;
+    margin-top: 10px;
+}
+
+#centrum{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#tytul{
+    text-align: center;
+}
+
+#przed{
+    margin-bottom: 30px;
+}
+
+#lista{
+    line-height: 25px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+#wrapper {
+    max-width: 1400px;
+    margin: 0 auto 0 auto;
+}
+
+#header img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#header{
+   margin-bottom: 10px; 
+}
+
+#nav{
+    background-color: forestgreen;
+    overflow: hidden;
+}
+
+#nav a{
+    margin: 20px 5px;
+    display: block;
+    width: auto;
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: forestgreen;
+    padding: : 15px 30px;
+    font-size: 18px;
+    -webkit-transition: all is ease;
+    transition: all is ease;
+}
+
+/*podmenu*/
+ul {
+     list-style: none;
+     float: left;
+}
+
+ul > li {
+     margin: 0;
+     padding: 0;
+     float: left; 
+     position: relative;
+     height: 30px;
+}
+
+ul > li > a {
+     padding: 10px; 
+     color: #444;
+     text-decoration: none;
+}
+
+ul > li > a:hover, 
+ul > li:hover > a {
+     background-color:forestgreen;
+    color: white;
+     text-decoration: none;
+    cursor: pointer;
+}
+
+ul > li ul {
+     padding: 0;
+     position: absolute; 
+     display: none; 
+     left: 0px; 
+     top: 30px; 
+     width: 200px; 
+     text-align: left;
+     background-color: #fcfcfc;
+     border: 1px solid #ccc;
+}
+
+ul li:hover > ul {
+     display: block;
+    cursor: pointer;
+}
+
+ul > li ul ul {
+     left: 200px; 
+     top: -1px;
+}
+
+ul > li ul li {
+     margin: 0; 
+     padding: 0;
+     position: relative; 
+     float: none; 
+     height: auto;
+}
+
+ul > li ul li a {
+     padding: 10px 20px; 
+     color: #505050; 
+     text-decoration: none;
+     display: block;
+}
+
+ul > li ul li a:hover,
+ul > li ul li:hover > a {
+     text-decoration: none;
+     color: #fff;
+     background-color: forestgreen;
+    cursor: pointer;
+}
+
+.article{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    height: 40px;
+    background-color: forestgreen;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.col{
+    column-count: 3;
+}
+
+#col1, #col2, #col3{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.col1{
+    float: left;
+}
+
+.col3{
+    float: right;
+}
+
+/*zegar analogowy*/
+#date{
+    font-size: 2vw;
+    letter-spacing: 0.5vw;
+}
+
+.clock {
+    margin-top: 80px;
+  width: 150px;
+  height: 150px;
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: 50%;
+  border: 2px solid black;
+  position: relative;
+}
+
+.clock .number {
+  --rotation: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform: rotate(var(--rotation));
+  font-size: 1.5rem;
+}
+
+.clock .number1 { --rotation: 30deg; }
+.clock .number2 { --rotation: 60deg; }
+.clock .number3 { --rotation: 90deg; }
+.clock .number4 { --rotation: 120deg; }
+.clock .number5 { --rotation: 150deg; }
+.clock .number6 { --rotation: 180deg; }
+.clock .number7 { --rotation: 210deg; }
+.clock .number8 { --rotation: 240deg; }
+.clock .number9 { --rotation: 270deg; }
+.clock .number10 { --rotation: 300deg; }
+.clock .number11 { --rotation: 330deg; }
+
+.clock .hand {
+  --rotation: 0;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  border: 1px solid white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transform-origin: bottom;
+  z-index: 10;
+  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+}
+
+.clock::after {
+  content: '';
+  position: absolute;
+  background-color: black;
+  z-index: 11;
+  width: 15px;
+  height: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.clock .hand.second {
+  width: 3px;
+  height: 45%;
+  background-color: red;
+}
+
+.clock .hand.minute {
+  width: 7px;
+  height: 40%;
+  background-color: black;
+}
+
+.clock .hand.hour {
+  width: 10px;
+  height: 35%;
+  background-color: black;
+}

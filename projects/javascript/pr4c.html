@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function wczytajMape(){
+var mapOptions={
+center:new google.maps.LatLng(50.8, 19.12),
+zoom:10,
+mapTypeId:google.maps.MapTypeId.ROADMAP
+};
+var map=new google.maps.Map(document.getElementById("obszarMapy"),mapOptions);
+
+var marker = new google.maps.Marker({
+position: new google.maps.LatLng(50.8, 19.12),
+map: map,
+});
+
+var polilinia = new google.maps.Polyline({
+path:[ new google.maps.LatLng(50.8,19.12),
+new google.maps.LatLng(51.8,20.12),
+new google.maps.LatLng(50.8,20.12),
+new google.maps.LatLng(50.8,19.12)],
+strokeColor:"#0000FF",
+strokeOpacity:0.6,
+strokeWeight:2
+});
+polilinia.setMap(map);
+//polilinia.setmap(null);
+}
+</script>
+<title>js4c</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+<!--<script type="text/javascript">
+google.maps.event.addDomListener(window,'load',wczytajMape);
+</script>-->
+<body onload="wczytajMape()">
+<button type="button" onclick="wczytajMape()">wczytaj mape</button>
+<div id="obszarMapy" style="width:500px; height:500px;"></div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿<html>
+<head><title>Filtry w AngularJS - wykluczenie</title></head>
+<meta charset="utf-8"/>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+<p><input type="text" ng-model="wpis"></p>
+<ul>
+<li ng-repeat="sam in marki | filtr:wpis">
+{{sam}}
+</li>
+</ul>
+</div>
+<script>
+var app=angular.module('myApp',[]);
+app.comntroller('myCtrl',function($scope){
+$scope.marka=['Audi','Peugeot','Renault','Rover','Skoda','Seat'];
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="320"
+   height="200"
+   viewBox="0 0 84.666669 52.916665"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="SwedenFlag.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     units="px"
+     inkscape:zoom="2.585"
+     inkscape:cx="159.96132"
+     inkscape:cy="100"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9"
+       spacingx="5.2916667"
+       spacingy="5.2916667"
+       dotted="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#005aad;fill-rule:evenodd;stroke:#000000;stroke-width:0.132292;stroke-linejoin:round;fill-opacity:1"
+       id="rect33"
+       width="84.666664"
+       height="52.916664"
+       x="0"
+       y="0" />
+    <path
+       id="rect79"
+       style="fill:#ffc200;fill-rule:evenodd;stroke:none;stroke-width:0.500001;stroke-linejoin:round;fill-opacity:1"
+       d="M 100 0 L 100 80 L 0 80 L 0 120 L 100 120 L 100 200 L 140 200 L 140 120 L 320 120 L 320 80 L 140 80 L 140 0 L 100 0 z "
+       transform="scale(0.26458333)" />
+  </g>
+</svg>

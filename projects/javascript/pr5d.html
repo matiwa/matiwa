@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js5d</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script>
+function start(){
+var div = document.getElementById("div1");
+var iterator = document.createNodeIterator(div,NodeFilter.SHOW_ELEMENT,null,false);
+var node = iterator.nextNode();
+var lista;
+while(node!==null){
+if(node.tagName=="UL"){
+lista=node;
+}
+if(node.tagName=="LI"){
+if(node.innerHTML=="Element 2"){
+alert(node.innerHTML);
+nowy_li=document.createElement("li");
+nowy_txt=document.createTextNode("nowy");
+nowy_li.appendChild(nowy_txt);
+lista.insertBefore(nowy_li,node);
+}
+}
+node=iterator.nextNode();
+}
+}
+</script>
+</head>
+<body>
+<div id="div1">
+<p>Lista : </p>
+<ul>
+<li>Element 1</li>
+<li>Element 2</li>
+<li>Element 3</li>
+</ul>
+</div>
+<button onclick="start()">Start</button>
+</body>
+</html>

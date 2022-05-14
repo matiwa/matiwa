@@ -1,0 +1,20 @@
+﻿<html>
+<head><title>Usługa timeout</title></head>
+<meta charset="utf-8"/>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+<div ng-app="myApp1" ng-controller="myCtrl">
+<h1>{{tekst}}</h1>
+</div>
+<script>
+var app=angular.module('myApp',[]);
+app.controller('myCtrl',function($scope,$timeout)
+{
+$scope.tekst="Hello";
+$timeout(function(){
+$scope.tekst="Dzień dobry";
+},5000);
+});
+</script>
+</body>
+</html>

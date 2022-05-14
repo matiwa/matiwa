@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/javascript">
+function UstawCookie() {
+if(document.myform.login.value==""){
+alert("wpisz cos!");
+return;
+}
+wartosc=document.myform.login.value+";";
+document.cookie="login="+wartosc;
+document.write("Ustawiam cookie : "+"login ="+wartosc);
+}
+</script>
+<title>js3b</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+<script type="text/javascript">
+document.write("<b>"+"Uzupelnij dane :"+"</b><br>");
+</script>
+<form name="myform" action="">
+Wpisz login: <input type="text" name="login"/>
+<input type="button" value="Ustaw Cookie" onclick="UstawCookie();"/>
+</form>
+</body>
+</html>

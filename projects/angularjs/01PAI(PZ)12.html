@@ -1,0 +1,20 @@
+﻿<html>
+<head><title>Wywołanie funkcji zdefiniowanej w kontrolerze</title></head>
+<meta charset="utf-8"/>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+{{samochod}}
+{{zmien()}}
+</div>
+<script>
+var app=angular.module('myApp',[]);
+app.controller('myCtrl',function($scope){
+$scope.samochod="Audi";
+$scope.zmien=function(){
+$scope.samochod="Seat";
+}
+});
+</script>
+</body>
+</html>

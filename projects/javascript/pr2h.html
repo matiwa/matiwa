@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function writeText(txt) {
+document.getElementById("desc").innerHTML=txt;
+}
+</script>
+<title>js2h</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<img src=""width="300" height="200" alt="Geometria" usemap="#mapa"/>
+
+<map name="mapa">
+<area shape="rect" coords="0,0,82,126" onmouseover="writeText('Myszka znajduje sie nad niebieskim prostokatem z lewego gornego rogu!')" target="_blank" alt="niebieski"/>
+<area shape="rect" coords="200,0,300,100" onmouseover="writeText('Myszka znajduje sie nad zielonym prostokatem z prawego gornego rogu!')" target="_blank" alt="niebieski"/>
+</map>
+<p id="desc">Przejedz myszka nad obrazem.</p>
+</body>
+</html>

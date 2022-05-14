@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="220"
+   height="80"
+   viewBox="0 0 58.208335 21.166666"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Button.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="220mm"
+     units="px"
+     inkscape:zoom="4"
+     inkscape:cx="112.625"
+     inkscape:cy="30.375"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient10825">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop10821" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop10823" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2396">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2392" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop2394" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2396"
+       id="linearGradient2400"
+       x1="30.493229"
+       y1="21.100521"
+       x2="30.29479"
+       y2="-0.066146202"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10825"
+       id="linearGradient10829"
+       x1="29.504921"
+       y1="1.7951618"
+       x2="29.497162"
+       y2="8.8066196"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffff00;fill-rule:evenodd;stroke:none;stroke-width:1.05833;stroke-linejoin:round"
+       id="rect31"
+       width="58.208332"
+       height="21.166666"
+       x="6.357829e-07"
+       y="3.1789145e-07"
+       ry="9.260417" />
+    <rect
+       style="fill:url(#linearGradient2400);fill-rule:evenodd;stroke:none;stroke-width:1.05833;stroke-linejoin:round;fill-opacity:1;opacity:0.5"
+       id="rect2285"
+       width="58.208332"
+       height="21.166666"
+       x="6.357829e-07"
+       y="3.1789145e-07"
+       ry="9.260417" />
+    <path
+       id="rect1649"
+       style="fill:url(#linearGradient10829);fill-rule:evenodd;stroke-width:0.676909;stroke-linejoin:round;fill-opacity:1"
+       d="m 9.921875,1.719792 h 38.364583 c 2.565136,0 4.630209,2.065073 4.630209,4.6302085 0,0 0.288926,0.989782 0,1.322916 -1.021507,1.1778075 -3.075059,0.5509374 -4.630209,0.6614585 -12.756022,0.9065427 -25.608561,0.9065428 -38.364583,0 -1.55515,-0.1105211 -3.6087016,0.5163489 -4.6302085,-0.6614585 -0.2889256,-0.333134 0,-1.322916 0,-1.322916 0,-2.5651355 2.065073,-4.6302085 4.6302085,-4.6302085 z"
+       sodipodi:nodetypes="sssaaaass" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="11.337866"
+       y="14.350533"
+       id="text10180"><tspan
+         sodipodi:role="line"
+         id="tspan10178"
+         style="stroke-width:0.264583"
+         x="11.337866"
+         y="14.350533">Button</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="10.808696"
+       y="13.821288"
+       id="text10726"><tspan
+         sodipodi:role="line"
+         id="tspan10724"
+         style="fill:#ffffff;stroke-width:0.264583"
+         x="10.808696"
+         y="13.821288">Button</tspan></text>
+  </g>
+</svg>

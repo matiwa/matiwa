@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js4d</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<script>
+function dodawanie(){
+document.write("liczba argumentow : "+arguments.length+"<br>");
+if(arguments.length==2){
+document.write("suma = "+(arguments[0]+arguments[1])+"<br>");
+}else if(arguments.length==3){
+document.write("suma = "+(arguments[0]+arguments[1]+arguments[2])+"<br>");
+}
+}
+dodawanie(10,20);
+dodawanie(10,20,30);
+</script>
+</body>
+</html>

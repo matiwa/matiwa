@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>js4h</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<script type="text/javascript">
+function createPracownik(imie,wiek,stanowisko){
+var o=new Object();
+o.imie=imie;
+o.wiek=wiek;
+o.stanowisko=stanowisko;
+o.wypiszDane=function(){
+document.write(this.imie+" "+this.wiek+" "+this.stanowisko+"<br>");
+};
+return o;
+}
+var pracownik1=createPracownik("Peter",22,"Engineer");
+var pracownik2=createPracownik("John",26,"Driver");
+pracownik1.wypiszDane();
+pracownik2.wypiszDane();
+</script>
+</body>
+</html>
