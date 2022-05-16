@@ -36,6 +36,10 @@ body{
     margin-top: 10px;
 }
 
+.article a{
+    color: forestgreen;
+}
+
 #centrum{
     text-align: center;
     margin-top: 30px;
