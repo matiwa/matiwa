@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg974"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="TekstNaSciezke.svg">
+  <defs
+     id="defs968" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.66649802"
+     inkscape:cx="808.08924"
+     inkscape:cy="396.85039"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata971">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-87)">
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332"
+       id="path1044"
+       sodipodi:cx="151.64462"
+       sodipodi:cy="193.78639"
+       sodipodi:expansion="1"
+       sodipodi:revolution="3"
+       sodipodi:radius="70.292679"
+       sodipodi:argument="-20.448593"
+       sodipodi:t0="0"
+       d="m 151.64462,193.78639 c -0.0995,-3.52296 4.69978,-1.87225 5.85539,-0.1654 3.13163,4.62544 -1.02875,10.30397 -5.52458,11.87618 -8.04197,2.8123 -16.03635,-3.52301 -17.89697,-11.21456 -2.73054,-11.28766 6.02629,-21.86994 16.90454,-23.91777 14.499,-2.72943 27.74254,8.52952 29.93856,22.59453 2.76347,17.69937 -11.03192,33.63446 -28.28451,35.95935 -20.89519,2.81574 -39.53744,-13.53371 -41.98014,-33.97449 -2.87863,-24.08875 16.03508,-45.44734 39.66447,-48.00094 27.28106,-2.94823 51.36184,18.53619 54.02173,45.35445 3.02234,30.47262 -21.0371,57.27957 -51.04443,60.04253 -33.6637,3.09961 -63.199656,-23.53789 -66.06332,-56.73442 -3.179209,-36.85444 26.03858,-69.1215 62.4244,-72.08411" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:9.8777771px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="text1048"><textPath
+         xlink:href="#path1044"
+         id="textPath1179"><tspan
+   style="stroke-width:0.26458332"
+   id="tspan1046">Informatyka, studia stacjonarne (dzienne), inżynierskie (I-go stopnia)</tspan></textPath></text>
+  </g>
+</svg>
