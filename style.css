@@ -31,6 +31,11 @@ body{
     margin-top: 20px;
 }
 
+.article h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
 .article p{
     text-align: left;
     margin-top: 10px;
