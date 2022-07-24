@@ -46,46 +46,100 @@ body{
 }
 
 /*urządzenia mobilne*/
-@media only all and (min-width: 800px){
-    #header{
-        width:150px;
-    }
-    #nav{
-        width:150px;
-        float:left;
-        overflow: hidden;
-        position: relative;
-    }
-    #article{
-        margin-left: 150px;
-    }
-    #footer{
-        clear: both;
-    }
-}
-@media only all and (min-width: 1280px){
+@media only all and (min-width: 1100px){
     html, body{
         text-align: center;
     }
+    #wrapper{
+        width: 1050px;
+    }
     #header{
-        width:1260px;
+        width:1050px;
         margin-left: auto;
         margin-right: auto;
         text-align: left;
     }
     #nav{
-        width: 300px;
+        width: 1050px;
     }
     #article{
-        width: 960px;
+        width: 65%;
         float: left;
         overflow: hidden;
         margin-left: 0;
         margin-right: 0;
     }
     #footer{
+        width: 65%;
+    }
+}
+#media (max-width: 1100px) and (min-width: 1000px){
+    #wrapper{
+        width: 950px;
+    }
+    #header{
+        width:950px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+    #nav{
+        width: 950px;
+    }
+    #article{
+        width: 65%;
+        float: left;
+        overflow: hidden;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #footer{
+        width: 65%;
+    }
+}
+@media (max-width: 1000px) and (min-width: 800px){
+    #wrapper{
+        width: 750px;
+    }
+    #header{
+        width: 750px;
+    }
+    #nav{
+        width: 30%;
+    }
+    #article{
+        margin-left: 65%;
+    }
+    #footer{
+        clear: both;
+    }
+}
+@media (max-width: 800px) and (min-width: 500px){
+    #wrapper{
+        width: 450px;
+    }
+    #header{
+        width:450px;
+    }
+    #nav,
+    #article{
         width: 100%;
     }
+    #footer{
+        clear: both;
+    }    
+}
+@media (max-width: 500px){
+    #wrapper{
+        width: 90%;
+    }
+    #nav,
+    #article{
+        width: 100%;
+    }
+    #footer{
+        clear: both;
+    }    
 }
 /*koniec urządzenia mobilne*/
 
